@@ -13,6 +13,7 @@ const Avatar = ({ username, logoutOnPress }) => {
         onClick={() => logoutOnPress && logout()}
         layout="fill"
         className="rounded-full bg-slate-900 cursor-pointer hover:opacity-75 transition-all duration-200"
+        alt="avatarImage"
       />
     </div>
   );

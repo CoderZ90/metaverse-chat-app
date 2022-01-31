@@ -17,6 +17,7 @@ const Header = () => {
             layout="fill"
             className="rounded-full object shadow-lg"
             objectFit="cover"
+            alt="avatarImage"
           />
         </div>
 
